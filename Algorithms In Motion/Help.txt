@@ -1,0 +1,98 @@
+
+********************IMPORTANT*********************
+
+Click "Format" in the menu bar above and then "Word Wrap" to view this text document and glossaries properly.
+**************************************************
+
+
+Help and Installation Instructions for "Algorithms In Motion" version 1.0
+by the development team: Kevin Schwartz, Matt Seferian and Zach Sayed
+
+
+**************************************************
+
+Table of Contents
+
+1. Installation Instructions
+	a. Downloading Additional Modules
+	b. File Placement
+	c. Shortcut Creation
+2. Using Algorithms In Motion Interface
+	a. Opening Algorithms
+	b. Glossary: What terms are available
+3. Creating a New Module
+	a. Where to get the Blank Algorithm Template
+	b. What to change in the Java File
+	c. How to add Slide Images and the Glossary
+	d. Organizing the Whole Module
+4. Software Requirements
+5. Changelog
+
+**************************************************
+
+1. Installation Instructions
+
+	a. Downloading Additional Modules
+
+	Users that want to download addition modules should go to the link provided below. This link will bring the user to a GitHub directory, with a list of algorithm repositories. Select the repository named after the desired algorithm, then click the Clone or Download button, followed by Download Zip.
+
+https://github.com/COMSC4904921718
+
+	b. File Placement
+
+	Users must unzip the downloaded module named [Algorithm]-master, where [Algorithm] is the name of the downloaded algorithm. This should open a folder with a folder in it named the same thing, open this folder. Move this folder, without the -master, within into the Algorithm Folder directory located in Algorithms In Motion directory. The Algorithms In Motion directory can also be accessed from the main interface by clicking the button Algorithms Folder. The user should then place the new algorithm's folder here. To see the newly added algorithm in the interface click the refresh button. 
+
+	c. Shortcut Creation
+
+	To open the main interface from a desktop icon, right-click the Algorithms In Motion Java executable and select, Create Shortcut. This shortcut can be placed anywhere on the user's machine for direct access to the program.
+
+
+2. Using Algorithms In Motion Interface
+	
+	a. Opening Algorithms
+
+	The first four buttons the user sees should be Algorithm Folder, Glossary, Help and Refresh. After these four buttons are the buttons for each available algorithm on the user's system. If a downloaded algorithm is not appearing, check that it is in the correct location, see File Placement section 1b. To open one of these algorithms, click on the button and a new frame will open containing. Select the help button in this window for further help.
+
+	b. Glossary: What terms are available
+	
+	The Glossary on the main interface consists of the terms from each of the available algorithm modules on the user's system. This glossary does not repeat terms, so one of the terms may exist in multiple algorithm modules.
+
+3. Creating a New Module
+
+	a. Where to get the Blank Algorithm Template
+
+	If a user wants to create a new algorithm or use the software for another use, they need to modify the base Java file named AlgorithmBase, available at the link below. Once the user is on the GitHub page, select the repository named AlgorithmBase, then click the Clone or Download button, followed by Download Zip.
+
+https://github.com/COMSC4904921718
+
+
+	b. What to change in the Java File
+	
+	This file must be opened in a Java IDE (Java Development Environment), Eclipse is recommended, link below. Once the user opens the Java file, there are 4 instances of the name "AlgorithmBase", change these to the desired name of your algorithm. Rename this file to the desired name too. That's it! Next, right-click the file on the lefthand Package Explorer. Click Export and then under the Java tab, select Runnable JAR file and then Finish. This is your executable for this module.
+
+https://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygen3a
+
+	c. How to add Slide Images and the Glossary
+	
+	Slide Images can be any size. The left images must be named in the format [x]_Static and the right images [x]_Code, where the [x] represents from 1 to n where the images should appear in the slideshow. The glossary must be manually created by the user in the available .txt document. 
+
+	d. Organizing the Whole Module
+
+	Now that your Java executable, slide images, and glossary are completed, they should all be put into the same folder. This folder should be named the same thing as your Java Executable. You can now place this module folder in the Algorithm Folder and use it from the main interface.
+
+
+
+
+**************************************************
+
+4. Software Requirements: 
+
+Java 8 or Higher: https://www.java.com/en/download/win10.jsp
+
+**************************************************
+
+5. Changelog:
+
+	Version 1.0 [5-8-2018] - Initial Release
+
+**************************************************
